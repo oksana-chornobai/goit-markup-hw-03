@@ -100,12 +100,13 @@ color: #2e2f42;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-decoration: underline;
+text-decoration: none;
 cursor: pointer;
 }
 
 .nav-link:hover,
 .nav-link:focus {
+    text-decoration: underline;
     color: #404bbf;
 }
 
@@ -125,13 +126,14 @@ address {
 
 .address-link {
     font-style: normal;
-    text-decoration: underline;
+    text-decoration: none;
     letter-spacing: 0.02em;
     color: #434455;
 }
 
 .address-link:hover,
 .address-link:focus {
+    text-decoration: underline;
     color: #404bbf;
 }
 
