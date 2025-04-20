@@ -55,6 +55,11 @@ img {
         margin-right: auto;
 }
 
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
@@ -183,8 +188,6 @@ letter-spacing: 0.02em;
 
 .principles-container {
     display: flex;
-    margin-top: 120px;
-    margin-bottom: 120px;
 }
 
 .core-principles-list {
@@ -219,7 +222,6 @@ letter-spacing: 0.02em;
         color: #2e2f42;
     text-transform: capitalize;
     letter-spacing: 0.02em;
-    padding-top: 72px;
     padding-bottom: 72px;
 }
 
@@ -267,11 +269,6 @@ gap: 32px;
 .team-member-profession {
     text-align: center;
     letter-spacing: 0.02em;
-}
-
-.portfolio-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
 }
 
 .portfolio-title {
