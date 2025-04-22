@@ -75,7 +75,6 @@ img {
 .page-nav {
     display: flex;
     align-items: center;
-    margin-right: 76px;
     color: #2e2f42;
     font-weight: 500;
     background-color: #fff;
@@ -112,7 +111,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
 cursor: pointer;
-padding: 24px 0;;
+display: block;
 }
 
 .nav-link:hover,
@@ -159,7 +158,6 @@ padding: 188px 0;
     display: flex;
     flex-direction: column;
     gap: 48px;
-    height: 600px;
     justify-content: center;
     align-items: center;
 }
@@ -256,11 +254,6 @@ max-width: 496px;
     margin-bottom: 72px;
 }
 
-.team-container {
-    width: 100%;
-    height: 732px;
-}
-
 .team-list {
     display: flex;
 justify-content: center;
@@ -273,13 +266,11 @@ gap: 24px;
 }
 
 .team-item {
-    display: flex;
     flex-direction: column;
     background-color: #fff;
     justify-content: center;
     align-items: center;
     border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
         width: 264px;
         box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     
@@ -304,7 +295,6 @@ gap: 24px;
 .team-member-profession {
     text-align: center;
     letter-spacing: 0.02em;
-    margin-top: 8px;
 }
 
 .portfolio-title {
@@ -336,7 +326,6 @@ gap: 24px;
 
 .portfolio-list-item p {
     padding-top: 0;
-    padding-bottom: 32px;
 }
 
 .portfolio-name {
@@ -357,12 +346,6 @@ gap: 24px;
     background-color: #2e2f42;
     padding: 100px 0;
 }
-
-.footer-container {
-    width: 100%;
-    height: 312px;
-}
-
 
 .footer-logo-span {
     color: #f4f4fd;
